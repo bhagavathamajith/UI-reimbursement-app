@@ -1,0 +1,79 @@
+# ====================
+# Backend (Express)
+# ====================
+
+# Node.js modules
+node_modules/
+
+# npm logs
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Database
+*.db
+*.sqlite
+
+# File uploads (where receipts might be stored)
+uploads/
+
+# Logs and temporary files
+*.log
+*.tgz
+*.bak
+*.swp
+
+# Build and distribution files
+/dist/
+build/
+
+# ====================
+# Frontend (Angular)
+# ====================
+
+# Node.js modules for Angular
+frontend/node_modules/
+
+# Angular build output
+frontend/dist/
+frontend/.angular/
+
+# Temporary files for Angular
+frontend/tmp/
+frontend/.tmp/
+
+# Angular-specific log files
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# ====================
+# IDEs and Editor Files
+# ====================
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store   # macOS system file
+Thumbs.db   # Windows system file
+
+# ====================
+# Miscellaneous
+# ====================
+
+# Docker configuration
+.dockerignore
+Dockerfile
+docker-compose.yml
