@@ -17,3 +17,11 @@ app.use('/api/receipts', receiptRoutes);
 
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+//Parse XML to JSON in the project
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(err.status || 500).json({
+    message: err.message || 'Internal Server Error'
+  });
+});
