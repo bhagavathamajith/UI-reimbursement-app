@@ -26,7 +26,6 @@ ng serve
 ### Backend (Express)
 ```
 cd backend
-mkdir uploads  // to save the uploaded files
 npm install
 npm start
 ```
