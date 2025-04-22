@@ -18,10 +18,10 @@
       <input type="file" (change)="onFileChange($event)" required><br><br>
     </div>
     <button type="submit" [disabled]="form.invalid">Submit</button>
-  </form>
 
-  <div *ngIf="submitted">
-    <p *ngIf="success" style="color: green;">Receipt submitted successfully!</p>
-    <p *ngIf="!success" style="color: red;">{{ errorMsg }}</p>
-  </div>
+    <div *ngIf="submitted">
+      <p *ngIf="success" style="color: green;">Receipt submitted successfully!</p>
+      <p *ngIf="!success" style="color: red;">{{ errorMsg }}</p>
+    </div>
+  </form>
 </div>
